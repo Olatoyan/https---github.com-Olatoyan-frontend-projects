@@ -1,0 +1,50 @@
+$color-primary--orange: #e9ab53;
+$color-red: #f15e50;
+$color-Offwhite: #fffdfa;
+$color-grayishBlue: #c5c6ce;
+$color-darkgrayishBlue: #5d5f79;
+$color-darkBlue: #00001a;
+
+$transition-3s: all 0.3s;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  @media only screen and (max-width: 56.25em) {
+    // 900px
+    font-size: 50%;
+  }
+  @media only screen and (max-width: 43.75em) {
+    // 700px
+    font-size: 31.25%;
+  }
+
+  @media only screen and (max-width: 23.75em) {
+    // 380px
+    font-size: 31.25%;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 100rem;
+  line-height: 1;
+  padding: 2rem;
+  margin: 5rem auto;
+  position: relative;
+
+  @media only screen and (max-width: 43.75em) {
+    // 700px
+    max-width: 100%;
+    // margin: 0;
+  }
+
+  // @media only screen and (max-width: 23.75%) {
+  //   background-color: #e9ab53;
+  // }
+}

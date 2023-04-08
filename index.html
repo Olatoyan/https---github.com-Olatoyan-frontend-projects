@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <img src="assets/images/logo.svg" alt="logo" />
+        <ul class="header__nav__links">
+          <li><a href="#" class="header__nav__link">Home</a></li>
+          <li><a href="#" class="header__nav__link">New</a></li>
+          <li><a href="#" class="header__nav__link">Popular</a></li>
+          <li><a href="#" class="header__nav__link">Trending</a></li>
+          <li><a href="#" class="header__nav__link">Categories</a></li>
+        </ul>
+
+        <img
+          src="assets/images/icon-menu.svg"
+          alt="menu bar"
+          class="header__nav__open"
+        />
+        <img
+          src="assets/images/icon-menu-close.svg"
+          alt="menu bar"
+          class="header__nav__close"
+        />
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-- <div class="hero"> -->
+      <!-- <section class="hero__section"> -->
+      <div class="hero-img-box">
+        <picture>
+          <source
+            srcset="assets/images/image-web-3-mobile.jpg"
+            media="(max-width: 375px)"
+          />
+          <img
+            src="assets/images/image-web-3-desktop.jpg"
+            alt="hero img"
+            class="hero__img"
+          />
+        </picture>
+      </div>
+
+      <!-- <div class="hero__box"> -->
+      <h1 class="hero__heading">The Bright Future of Web 3.0?</h1>
+      <div class="hero__text-box">
+        <p class="hero__text">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a href="#" class="hero__link">Read more</a>
+      </div>
+      <!-- </div> -->
+      <!-- </section> -->
+      <aside class="aside">
+        <h2 class="aside__heading">New</h2>
+        <div class="aside__box">
+          <div class="aside__text-box">
+            <h3 class="aside__text-heading">New Hydrogen VS Electric Cars</h3>
+            <p class="aside__text-paragraph">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="aside__text-box">
+            <h3 class="aside__text-heading">The Downsides of AI Artistry</h3>
+            <p class="aside__text-paragraph">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+
+          <div class="aside__text-box">
+            <h3 class="aside__text-heading">Is VC Funding Drying Up?</h3>
+            <p class="aside__text-paragraph">
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </aside>
+      <!-- </div> -->
+
+      <!-- <scetion class="review__section"> -->
+      <div class="review__box">
+        <div>
+          <img
+            src="assets/images/image-retro-pcs.jpg"
+            alt="Retro PCs"
+            class="review__img"
+          />
+        </div>
+        <div class="review__text-box">
+          <p class="review__number">01</p>
+          <p class="review__heading">Reviving Retro PCs</p>
+          <p class="review__text-paragraph">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+      <div class="review__box">
+        <div>
+          <img
+            src="assets/images/image-top-laptops.jpg"
+            alt="Top laptops"
+            class="review__img"
+          />
+        </div>
+        <div class="review__text-box">
+          <p class="review__number">02</p>
+          <p class="review__heading">Top 10 Laptops of 2022</p>
+          <p class="review__text-paragraph">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </div>
+      <div class="review__box">
+        <div>
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            alt="Image growth"
+            class="review__img"
+          />
+        </div>
+        <div class="review__text-box">
+          <p class="review__number">03</p>
+          <p class="review__heading">The Growth of Gaming</p>
+          <p class="review__text-paragraph">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+      <!-- </scetion> -->
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Anonymous🔥</a>.
+      </div>
+    </main>
+    <div class="nav-open close">
+      <!-- <img
+        src="assets/images/icon-menu-close.svg"
+        alt="menu close"
+        class="nav-close"
+      /> -->
+      <ul class="header__nav__links-open">
+        <li><a href="#" class="header__nav__link-open">Home</a></li>
+        <li><a href="#" class="header__nav__link-open">New</a></li>
+        <li><a href="#" class="header__nav__link-open">Popular</a></li>
+        <li><a href="#" class="header__nav__link-open">Trending</a></li>
+        <li><a href="#" class="header__nav__link-open">Categories</a></li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
